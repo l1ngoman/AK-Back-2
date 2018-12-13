@@ -1,7 +1,7 @@
 class User < ApplicationRecord
 
   has_many :apartments
-  has_one :profile
+  has_one :profiles
 
   include Devise::JWT::RevocationStrategies::JTIMatcher
   # Include default devise modules. Others available are:

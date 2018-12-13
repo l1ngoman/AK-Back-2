@@ -22,17 +22,18 @@ end
 
 profile_attributes = [
   {
-    first_name: "athomasgarrett@gmail.com",
-    last_name: "admin1",
-    full_name: `#{first_name} #{last_name}`,
+    user_id: 1,
+    first_name: 'Andy',
+    last_name: 'Garrett',
+    full_name: `Andy Garrett`,
     phone: '+13256602651'
-
   },
   {
-    first_name: "athomasgarrett@gmail.com",
-    last_name: "admin1",
-    full_name: `#{first_name} #{last_name}`,
-    phone: '+13256602651',
+    user_id: 2,
+    first_name: 'Kristin',
+    last_name: 'McCloud',
+    full_name: `Kristin McCloud`,
+    phone: '+15555555555'
   }
 ]
 
